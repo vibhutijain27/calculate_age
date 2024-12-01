@@ -24,6 +24,7 @@ def month_days(month, leap_year):
 
 name = input("Vimmi jain")
 age = input("input your age: ")
+dob = input("input your dob: ")
 localtime = time.localtime(time.time())
 
 year = int(age)
