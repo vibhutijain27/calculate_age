@@ -27,7 +27,7 @@ age = input("input your age: ")
 contact = "7837823472389"
 dob = input("input your dob: ")
 localtime = time.localtime(time.time())
-
+abcd = "hello"
 year = int(age)
 month = year * 12 + localtime.tm_mon
 day = 0
