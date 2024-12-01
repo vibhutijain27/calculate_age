@@ -31,7 +31,7 @@ abcd = "hello"
 year = int(age)
 month = year * 12 + localtime.tm_mon
 day = 0
-
+abc = "hello"
 begin_year = int(localtime.tm_year) - year
 end_year = begin_year + year
 
