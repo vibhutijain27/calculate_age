@@ -21,9 +21,9 @@ def month_days(month, leap_year):
     elif month == 2 and (not leap_year):
         return 28
 
-
-name = input("input your name: ")
-age = input("input your age: ")
+print("Hello")
+name = input("Input your name: ")
+age = input("Input your age: ")
 localtime = time.localtime(time.time())
 
 year = int(age)
