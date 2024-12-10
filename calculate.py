@@ -21,12 +21,11 @@ def month_days(month, leap_year):
     elif month == 2 and (not leap_year):
         return 28
 
-print("Hello")
-print("Bye")
-name = input("Input your name: ")
-age = input("Input your age: ")
-localtime = time.localtime(time.time())
 
+name = input("input your name: ")
+age = input("input your age: ")
+localtime = time.localtime(time.time())
+abcd = "hello"
 year = int(age)
 month = year * 12 + localtime.tm_mon
 day = 0
